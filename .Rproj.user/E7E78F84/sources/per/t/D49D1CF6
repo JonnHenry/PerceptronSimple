@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2133794908",
+    "hash" : "3858061717",
     "id" : "D49D1CF6",
-    "lastKnownWriteTime" : 1574286149,
-    "last_content_update" : 1574286149937,
-    "path" : "E:/Universidad/Septimo Ciclo/InteligenciaArtificial/Jonnathan/R/Modelos Pedictivos/Perceptron/Perceptron.R",
+    "lastKnownWriteTime" : 1574338812,
+    "last_content_update" : 1574338812370,
+    "path" : "E:/Universidad/Septimo Ciclo/InteligenciaArtificial/Jonnathan/R/Modelos Pedictivos/PerceptronSimple/Perceptron.R",
     "project_path" : "Perceptron.R",
     "properties" : {
-        "cursorPosition" : "33,5",
-        "scrollLine" : "7"
+        "cursorPosition" : "7,121",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [

@@ -5,7 +5,6 @@ funcionY=function(valor){
 
 grafica=function(dataFrameComp, data){
   print(dataFrameComp)
-  data[[3]]<-replace(data[[3]],data[[3]]==-1,2)
   plot(x=data[[1]],y=data[[2]],col=replace(data[[3]],data[[3]]==-1,2) ,xlim=c(-3,3),ylim=c(-3,3),xlab = "x1",ylab = "x2")
   abline(-dataFrameComp[[3]]/dataFrameComp$w2,-dataFrameComp$w1/dataFrameComp$w2)
 }
@@ -42,6 +41,6 @@ dataFrameXOr<-data.frame(x1=c(-1,1,-1,1),x2=c(-1,-1,1,1),and=c(-1,1,1,-1))
 
 grafica(valoresPerceptron(1,1,0.5,dataFrameAnd,5),dataFrameAnd)
 grafica(valoresPerceptron(1,1,0.5,dataFrameOr,5),dataFrameOr)
-grafica(valoresPerceptron(1,1,1.5,dataFrameXOr,5),dataFrameXOr)
+grafica(valoresPerceptron(1,1,1.5,dataFrameXOr,21),dataFrameXOr)
 
 
